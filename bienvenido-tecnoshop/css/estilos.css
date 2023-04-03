@@ -1,0 +1,137 @@
+#cont-texto-principal {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    height: 70px;
+}
+.container-fluid{
+    flex-wrap: nowrap;
+    height: 50px;
+}
+.text-tecnoshop {
+    display: flex;
+}
+#logo-empresa{
+    width: 100px;
+}
+#btn-hamburger{
+    background-color: rgb(0, 0, 0);
+}
+#cont-texto-principal {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.tecnoshop {
+    margin-left: 8px;
+    color:rgb(0, 98, 255)
+}
+#inicio-sesion {
+    width: 200px;
+    font-size: 1.2rem;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-weight: 600;
+}
+#logos-empresas {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loguito-empresas {
+    width: 50px;
+}
+.huawei {
+    width: 80px;
+}
+.apple {
+    width: 45px;
+}
+.samsung {
+    width: 72px;
+}
+.playStation {
+    width: 60px;
+}
+hr{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#cualidades {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.nos-define {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 95px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px 0px rgba(0, 0, 0, 0.346);
+    -webkit-box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.435);
+}
+.text-cualidad {
+    width: 100px;
+    text-align: center;
+}
+.icono-cualidad {
+    font-size: 1.5rem;
+}
+.tiempo {
+    font-size: 16px;
+}
+.btn-otro {
+    background-color: rgb(255, 0, 149);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+footer {
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 1400px) and (min-width: 630px){
+    #cont-texto-principal {
+        display: flex;
+        align-items: center;
+    }
+    .nos-define {
+        width: 200px;
+    }
+}
+@media (max-width: 630px) and (min-width: 400px){
+    #cont-texto-principal {
+        display: flex;
+        align-items: center;
+    }
+    #cualidades {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nos-define {
+        width: 200px;
+        margin-bottom: 15px;
+    }
+}
